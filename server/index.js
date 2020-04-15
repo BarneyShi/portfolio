@@ -3,8 +3,10 @@ const bodyParser = require("body-parser");
 const nodemailer = require("nodemailer");
 const multer = require("multer");
 const multerFormHandler = multer();
+const cors = require("cors");
 const app = express();
 
+app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 

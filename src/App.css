@@ -50,9 +50,7 @@ li {
 #introduction ul p{
   padding-left: 25px;
 }
-p {
-  margin-bottom: ;
-}
+
 #page-footer {
   background-color: #e9ecef;
   padding: 10px;
@@ -87,14 +85,18 @@ form > h2 {
   margin-bottom: 5vh;
 }
 form textarea {
-  height: 150px;
+  height: 230px;
   width: 100%;
 }
 form button {
   margin-top: 3vh;
+  width: 100%;
 }
-#pop-up {
 
+#contact-form img {
+  border-radius: 50%;
+  width: 10vh;
+  display: block;
 }
 
 #exit-button {
@@ -103,4 +105,13 @@ form button {
 #exit-button:hover {
   color: white;
   cursor: pointer;
+}
+#checkform {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 5% 4% 5% 4%;
+  flex-direction:column;
 }

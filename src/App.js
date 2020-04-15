@@ -11,6 +11,23 @@ class App extends Component {
   exitButton = () =>{
     document.getElementById("contact-form").style.display = "none";
   }
+  submitContactForm = event => {
+    event.preventDefault();
+    const data = new FormData(event.target);
+    fetch('http://localhost:3000/send',{
+      method: 'POST',
+      body: data
+    }).then(()=>{
+      console.log('Submitted!');
+    }).catch(err=>{
+      throw err
+    })
+  }
+
+  hiddenForm = () => {
+    document.getElementById('form-body').style.display = "none";
+
+  }
 
 
   render() {
@@ -89,8 +106,8 @@ class App extends Component {
           </div>
         </div>
 
-        <div id='contact-form' style={{display:"none"}}>
-          <form onSubmit={this.conTactFormSubmit}>
+        <div id='contact-form' style={{display:"none"}} onSubmit={this.submitContactForm}>
+          {/* <form onSubmit={this.conTactFormSubmit} id='form-body'>
             <h2 style={{display:"inlineBlock"}}>Contact Form</h2> <div onClick={this.exitButton} id="exit-button">x</div>
             <p>Name:</p><input name="name" />
             <p>Email Address:</p>
@@ -99,7 +116,15 @@ class App extends Component {
             <textarea name="message"></textarea>
             <br/>
             <button className="btn btn-primary">Submit</button>
-          </form>
+          </form> */}
+          <div id='checkform'>
+            <img src='checkmark.gif' alt='checkmark' />
+            <br/>
+            <h3>Thank you for your message! <br/>I will get back to you soon.</h3>
+            <br/>
+
+            <button className='btn btn-warning'>Close</button>
+          </div>
         </div>
         
         <footer id="page-footer" >
