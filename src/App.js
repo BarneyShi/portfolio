@@ -5,7 +5,13 @@ import './App.css'
 class App extends Component {
 
   showContactForm = () =>{
-    (document.getElementById("contact-form").style.display === "none") ? (document.getElementById('contact-form').style.display = "flex"): (document.getElementById('contact-form').style.display = "none");
+    if(document.getElementById("contact-form").style.display === "none") {
+      document.getElementById('contact-form').style.display = "flex";
+      document.getElementById('form-body').style.display = "initial";
+    } else {
+      document.getElementById('contact-form').style.display = "none"
+    }
+    document.getElementById('checkform').style.display = "none";
   }
 
   exitButton = () =>{
@@ -19,14 +25,20 @@ class App extends Component {
       body: data
     }).then(()=>{
       console.log('Submitted!');
+      this.sentNotification();
     }).catch(err=>{
       throw err
     })
   }
 
-  hiddenForm = () => {
+  sentNotification = () =>{
     document.getElementById('form-body').style.display = "none";
+    document.getElementById('checkform').style.display = "flex";
+  }
 
+  hiddenForm = () => {
+    document.getElementById('contact-form').style.display = "none";
+    window.location.reload();
   }
 
 
@@ -34,7 +46,7 @@ class App extends Component {
     return (
       <div>
         <nav className='navbar bg-light'>
-          <h2>
+          <h2 style={{fontWeight:750}}>
             BARNEY SHI
           </h2>
           <div id="social_media_icons">
@@ -45,7 +57,7 @@ class App extends Component {
         </nav>
         <div className='jumbotron text-center'>
           <img className='rounded-circle' id='avator-picture' alt='avator' src='brian.jpg' />
-          <h2>Barney Shi</h2>
+          <h2 style={{fontWeight:750}}>Barney Shi</h2>
         </div>
         <div className='container'>
           <div className='row'>
@@ -75,15 +87,15 @@ class App extends Component {
                 <li>
                   <a href='https://autoturnonline.com/'target='_blank' rel="noopener noreferrer">AutoTURN Online</a>
                 </li>
-                <p>Co-op work project. Responsive, user-friendly landing page for AutoTURN Online, Transoft Solutions Inc. <br/>Bootstrap, HTML, CSS, PHP</p>
+                <p>Co-op work project. Responsive, user-friendly landing page for AutoTURN Online, Transoft Solutions Inc. <br/>Bootstrap | HTML | CSS | PHP</p>
                 <li>
                   <a href='https://yelplakes.herokuapp.com/' target='_blank' rel="noopener noreferrer">YelpLakes</a>
                 </li>
-                <p>CRUD website on which users share favourite lake landscapes. <br/>Node.js, Express.js, MongoDB, Bootstrap, </p>
+                <p>CRUD website on which users share favourite lake landscapes. <br/>Node.js | Express.js | MongoDB | Bootstrap, </p>
                 <li>
                   <a href='https://github.com/ZhuangzhuangShi/CS304_DB' target='_blank' rel="noopener noreferrer">iBookSpaceOpiaGram</a>
                 </li>
-                <p>Database course project. Support insert, update, delete, select operations.<br/><span>Reactjs, Nodejs, Expressjs, MySQL</span></p>
+                <p>Database course project. Support insert, update, delete, select operations.<br/><span>React.js | Node.js | Express.js | MySQL</span></p>
               </ul>
             </div>
 
@@ -107,8 +119,8 @@ class App extends Component {
         </div>
 
         <div id='contact-form' style={{display:"none"}} onSubmit={this.submitContactForm}>
-          {/* <form onSubmit={this.conTactFormSubmit} id='form-body'>
-            <h2 style={{display:"inlineBlock"}}>Contact Form</h2> <div onClick={this.exitButton} id="exit-button">x</div>
+          <form onSubmit={this.conTactFormSubmit} id='form-body'>
+            <h2 style={{display:"inlineBlock"}}>Contact Form</h2> <div onClick={this.exitButton} id="exit-button">&times;</div>
             <p>Name:</p><input name="name" />
             <p>Email Address:</p>
             <input type='text' name="email" />
@@ -116,14 +128,14 @@ class App extends Component {
             <textarea name="message"></textarea>
             <br/>
             <button className="btn btn-primary">Submit</button>
-          </form> */}
+          </form>
           <div id='checkform'>
             <img src='checkmark.gif' alt='checkmark' />
             <br/>
-            <h3>Thank you for your message! <br/>I will get back to you soon.</h3>
+            <p>Thank you for your message! <br/>I will get back to you soon.</p>
             <br/>
 
-            <button className='btn btn-warning'>Close</button>
+            <button className='btn btn-warning' onClick={this.hiddenForm}>Close</button>
           </div>
         </div>
         

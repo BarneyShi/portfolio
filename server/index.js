@@ -16,8 +16,8 @@ app.post("/send", multerFormHandler.none(), (req, res) => {
   const context = `
   <p>New message from portfolio website</p>
   <ul>
-    <li>${req.body.name}<li>
-    <li>${req.body.email}<li>
+    <li>${req.body.name}</li>
+    <li>${req.body.email}</li>
   </ul>
   <h3>Context</h3>
   <p>${req.body.message}</p>
