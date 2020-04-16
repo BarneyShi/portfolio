@@ -5,6 +5,9 @@ body {
 body h2 {
   font-family: merriweather,serif;
 }
+a:hover {
+  cursor: pointer;
+}
 #avator-picture {
   width: 6em;
   height: auto;
