@@ -61,7 +61,7 @@ class App extends Component {
         </div>
         <div className='container'>
           <div className='row'>
-            <div className='col-4 offset-1  text-left' id='introduction'>
+            <div className='col-12 col-md-4 offset-md-1 text-left' id='introduction'>
               <p className='subtitle'>ABOUT ME</p>
               <p>I'm a second-degree compute science student at the University of British Columbia. I graduated with a Bachelor degree of Economics in 2018.
               I'm interested in web development.
@@ -77,11 +77,11 @@ class App extends Component {
               </ul>
             </div>
             
-            <div className='col-1' id="v1">
+            <div className='col-1 d-none d-md-block' id="v1">
 
             </div>
 
-            <div className='col-4 offset-1' id='project'>
+            <div className='col-12 offset-md-1 col-md-4' id='project'>
               <p className='subtitle'>PROJECTS</p>
               <ul>
                 <li>
@@ -99,16 +99,16 @@ class App extends Component {
               </ul>
             </div>
 
-            <div className='col-4 offset-1'>
+            <div className='col-12 offset-md-1 col-md-4'>
               <p className='subtitle'>EDUCATION</p>
               <p><span style={{fontWeight:"bolder"}}>University of British Columbia</span> <br/> <span className="text-left">May 2021</span> | Vancouver, BC, Canada <br/> Bachelor of Computer Science </p>
               <p><span style={{fontWeight:"bolder"}}>Ocean University of China</span> <br/> <span>Sep 2013 - Sep 2018</span> | Tsingtao, China <br/>Bachelor of Economics</p>
             </div>
 
-            <div className='col-1' id="v2">
+            <div className='col-1 d-none d-md-block' id="v2">
 
             </div>
-            <div className="col-4 offset-1">
+            <div className="col-12 col-md-4 offset-md-1">
               <p className='subtitle'>WORK EXPERIENCE</p>
               <p><span style={{fontWeight:"bolder"}}>Junior Web Developer</span> <br/> <span>Sep 2019 - Dec 2019</span> | Richmond, Canada <br/>Transoft Solutions Inc.
               <br/><span style={{paddingLeft:"25px"}}>&#8226;Maintained and upgraded websites codebase</span> <br/><span style={{paddingLeft:"25px"}}>&#8226;Developed landing pages for new products</span>
