@@ -46,7 +46,7 @@ class App extends Component {
     return (
       <div>
         <nav className='navbar bg-light'>
-          <h2 style={{fontWeight:750}}>
+          <h2 style={{fontWeight:750}} className="d-none d-sm-block">
             BARNEY SHI
           </h2>
           <div id="social_media_icons">
