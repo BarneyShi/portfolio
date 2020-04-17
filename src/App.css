@@ -1,9 +1,10 @@
 body {
-  font-family: merriweather,serif;
+  font-family: Georgia, serif;
   font-size: 1.2rem;
 }
 body h2 {
   font-family: merriweather,serif;
+  margin-bottom: 0;
 }
 a:hover {
   cursor: pointer;
