@@ -45,6 +45,10 @@ li {
   padding-left: 25px;
 }
 
+#project  span {
+  font-style: italic;
+}
+
 #v1 {
   border-right: 2px solid black;
 }
@@ -53,6 +57,9 @@ li {
 }
 #introduction ul p{
   padding-left: 25px;
+}
+#introduction li {
+  font-weight: 600;
 }
 
 #page-footer {
