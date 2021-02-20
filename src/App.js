@@ -55,9 +55,8 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <img
-                className="socialMediaIcons"
                 alt="github_icon"
-                src="/github_icon.png"
+                src="data:image/svg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwIOTdGfZNBAAADAUlEQVRIx43VXWjVdRgH8M85euZmysgXVJo410ws2ky9jSyCIYIkEfQihdKldxXkiogVFJIkFpJihiGGEIwIvIiWiTEdOlldiKDNaOZFU/fSztnLcT5d7O9/087Z+v5vntfv8/x+/+f3+2WUwgM2e9oT6lRjQLcLTjoh739gsX3+EcnXqzeVB+21aPrknGYDQl6rV9WaA+ZY6TWtCkK/XXLl0hdoE0YdsLiM/2PDwunS/kdcETrUTttjnXPCZavudyx0RfhGlYZpKFZqUOW4cNmCe9feJhyT0SyEX21N/kaNGvPAVr8JYZeM48IPZk8SvC2cU4UeRV1C6HI13f+ria1T0Z+Yq1N4Z7L9PiPqUCH8jqd0CUXd2p12yW2hy5PodkcO9UYV1EwQ7BE+BbON+wvM8ri5aYfzPWYWuG48kfYJe2GuAYVkQLJuJRVKo8IdN2WTgRvWr4rnhe+SgB1Ch0xZgowOYXuifS88x35hR2L6w23rpp2D9cZ1J/Lrwme0Cw+DNUK7mXBWWA1WCb9k1eM6WIdTMxKcwnpwDfVZ1W4ZBpUYmJFgEBVgWJ/qrIxi4spT5hhNxaIkEsZkuaGY7PsK4fyMBJ3CcpBV9DfnhIcS5wWhadr0TUJnIi8XOjgkvJiYNgu91pRNf9QNYVOivSwc5BXhcBqyRxjwRolprPCmQWF3ajkyUbpaQd6DaDBfRosxodcRO20EG+30tRvCmPfTOV2oIG8+HBaacVa/7Wh0VEGk1XYLoeCohikdvSd8MSGuVjRkhXeNiOQqeUm4qDKZj4vCC/csqFbekGV31U+ENjlbjOv3rGrHhG1p+Dbh8ynpOSeFlklDpQ7hAN5Kb6GwIfVvEL5NtYxDwpmkvwTLXBO+lLPFjy7pE9am3rVCa1r9K6Fnsv27aNQj/KwetJYhqHdK6LlnO6d0cUYo+MCSkgRLfKggtFtabtIqtRgSRtwUmtKnrUm4aUQY9VFiLYul9hsq+bgOOaju/vDS9988mz2jMXne+13V5ScnDP039F/mhTeiiXrMyAAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMC0wNC0xMlQwODo1Nzo1NSswMDowMDaiwKUAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjAtMDQtMTJUMDg6NTc6NTUrMDA6MDBH/3gZAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAABJRU5ErkJggg=="
               />
             </a>
             <a
@@ -66,17 +65,15 @@ class App extends Component {
               rel="noopener noreferrer"
             >
               <img
-                className="socialMediaIcons"
                 alt="linkedin_icon"
-                src="/linkedin_icon.png"
+                src="data:image/svg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwIOiznNQluAAABE0lEQVRIx+2VsU4CQRCGvzNHaYyExlBIaUyE2JjwBCbWtFjQGEp6e3wEOzsKLShIfAZrOiPEBBoqMDQgx2Vo1r3lDGb3trFgmp1/LvPN3NxtJkDwshCAtU+2EGUuHyEHfi8A/w1Qp8+Qths2GeIFMYIgNCxzU0M815Ur2TooMlcdXNt3sP0flHnkiRvr4r8ArhYhoSGPaCqvyzsn3CrV4Ys7qhQY80wvfXuSDkpqAkINuNKqzof2hRdCswMbwNRIF4T7XZ9xlx2z4I2J1i1yyUMbwCdnVDnlVek8l26AB0bAiraOlNwAg9QJh26AWJ1LHQncAH/aHgDmZYqZKW8FrLX62RqiI98mYr8XAgSv5Rr4rvcNQtNv0xwLwycAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDQtMTJUMDg6NTg6NDQrMDA6MDCtdJACAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA0LTEyVDA4OjU4OjQ0KzAwOjAw3CkovgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="
               />
             </a>
             {/* eslint-disable-next-line */}
             <a onClick={this.showContactForm}>
               <img
-                className="socialMediaIcons"
                 alt="mail_icon"
-                src="/email_icon.png"
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwLCzFAKNxcAAACK0lEQVRIx53VOWhUURSH8d9kMS64BCOJC1FciIooKRRBEbSzVWwsLCwEq5RiN6CFhSkELYQ0IhgSCKKIooiFWqiIEBAlLoy7cYsR15g4x2ImYWacmcz479657/se77xz76NcZjmpV6P/zEZPhPDclurhOoeMCd26hTGH1FWDL3FT+GIf2GVIuGNFpfgeX4Vblk9UFrsu/NAxOTzbGWHUEfV59VoH/Bb6zC2Hb/NSSNlcdHWDR8Kg7cXhekl/hF5zSj5gppNC2jENhUur3BOG7Z70JXf4KNy3Nr9t34RrFlXU5BaXhJ86JGCe88KopNqKcEjo8Eu4bD6DwoD2iuHxtBsQBms0o6lM40plukY0E8aEEXurwvcayZJCKnt5TE2FHUgKo/ZLjQvY5L1w0axJ8RnOCp9sJVfAMg+Efq1l8QXuCo+tpFBAo6vCG+tL4uu8EG5oyl4XCKhzXPhZYh53+i505WyzfwTQYUxaMjNlefU/0pJ5taICDgrhVM6GaXBKCAcL7iwqaDckfM551yY3spWhgoktImgzKBzV4rbw1GorDAj3LHJY+GBNOUGbt0InmKZHGDYs9JgGOoW32koJWj0Tuibal3BAWtqRiQlNOCG8srSYoFUqD89kd8EnTegSUtlxyxE0eyj0VnAm1DgtPLYgVzDPfaGvwp9HrW5hQMu44J1+4VzBQV4u9c4J/d5lBCFcMbViHKa4kCETArw2UpWABgszXY0qwYL8BSjs+AOLn4UhAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA0LTEyVDExOjExOjQ5KzAwOjAwmvVCFAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wNC0xMlQxMToxMTo0OSswMDowMOuo+qgAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
               />
             </a>
           </div>
