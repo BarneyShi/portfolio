@@ -69,6 +69,7 @@ class App extends Component {
                 src="data:image/svg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwIOiznNQluAAABE0lEQVRIx+2VsU4CQRCGvzNHaYyExlBIaUyE2JjwBCbWtFjQGEp6e3wEOzsKLShIfAZrOiPEBBoqMDQgx2Vo1r3lDGb3trFgmp1/LvPN3NxtJkDwshCAtU+2EGUuHyEHfi8A/w1Qp8+Qths2GeIFMYIgNCxzU0M815Ur2TooMlcdXNt3sP0flHnkiRvr4r8ArhYhoSGPaCqvyzsn3CrV4Ys7qhQY80wvfXuSDkpqAkINuNKqzof2hRdCswMbwNRIF4T7XZ9xlx2z4I2J1i1yyUMbwCdnVDnlVek8l26AB0bAiraOlNwAg9QJh26AWJ1LHQncAH/aHgDmZYqZKW8FrLX62RqiI98mYr8XAgSv5Rr4rvcNQtNv0xwLwycAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDQtMTJUMDg6NTg6NDQrMDA6MDCtdJACAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA0LTEyVDA4OjU4OjQ0KzAwOjAw3CkovgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="
               />
             </a>
+            {/* eslint-disable-next-line */}
             <a onClick={this.showContactForm}>
               <img
                 alt="mail_icon"
@@ -103,20 +104,67 @@ class App extends Component {
               </p>
               <ul>
                 <li>Languages:</li>
-                <p style={{ marginBottom: "10px" }}>Java, Javascript</p>
+                <p style={{ marginBottom: "10px" }}>Javascript, Java</p>
                 <li>Web:</li>
                 <p style={{ marginBottom: "10px" }}>
-                  React.js, Redux, Node.js, Express.js, HTML/CSS, Bootsrap,
-                  jQuery, SQL, NoSQL, JWT Authorization
+                  Ember.js, Node.js, React.js, Express.js, HTML/CSS, Bootsrap,
+                  jQuery, SQL/NoSQL
                 </p>
                 <li>Tools:</li>
-                <p>MySQL, Git, WordPress, JIRA, TortoiseSVN</p>
+                <p>Git, JIRA, CircleCI, TortoiseSVN</p>
               </ul>
+
+              <p className="subtitle">EDUCATION</p>
+              <p>
+                <span style={{ fontWeight: "bolder" }}>
+                  University of British Columbia
+                </span>{" "}
+                <br /> <span className="text-left">May 2021</span> | Vancouver,
+                BC, Canada <br /> Bachelor of Computer Science{" "}
+              </p>
+              <p>
+                <span style={{ fontWeight: "bolder" }}>
+                  Ocean University of China
+                </span>{" "}
+                <br /> <span>Sep 2013 - Sep 2018</span> | Tsingtao, China <br />
+                Bachelor of Economics,
+                <br />
+                Awarded 3 Outstanding Scholarships
+              </p>
             </div>
 
             <div className="col-1 d-none d-md-block" id="v1"></div>
+            <div className="col-12 col-md-4 offset-md-1">
+              <p className="subtitle">WORK EXPERIENCE</p>
+              <p>
+                <span style={{ fontWeight: "bolder" }}>
+                  Front-End Engineer, Later Inc
+                </span>{" "}
+                <br /> <span>Jan 2021 - Present</span> | Vancouver{" "}
+                <br />
+                <span style={{ paddingLeft: "25px" }}>
+                  &#8226;Implement Drag&Drop feature 
+                </span>{" "}
+                <br />
+                <span style={{ paddingLeft: "25px" }}>
+                  &#8226;Bug fixing and make improvements.
+                </span>
+              </p>
+              <p>
+                <span style={{ fontWeight: "bolder" }}>
+                  Junior Web Developer, Transoft Solutions Inc
+                </span>{" "}
+                <br /> <span>Sep 2019 - Dec 2019</span> | Richmond{" "}
+                <br />
+                <span style={{ paddingLeft: "25px" }}>
+                  &#8226;Made 3 landing pages.
+                </span>{" "}
+                <br />
+                <span style={{ paddingLeft: "25px" }}>
+                  &#8226;Resolved over 20 tickets of bug fixing and improvements.
+                </span>
+              </p>
 
-            <div className="col-12 offset-md-1 col-md-4" id="project">
               <p className="subtitle">PROJECTS</p>
               <ul>
                 <li>
@@ -129,7 +177,9 @@ class App extends Component {
                   </a>
                 </li>
                 <p>
-                  CRUD full-stack website utilizing React.js, Node.js; Featuring upvote/downvote, comment functions; Protected with user access control/JWT 
+                  CRUD full-stack website utilizing React.js, Node.js; Featuring
+                  upvote/downvote, comment functions; Protected with user access
+                  control/JWT
                   <br />
                   <span>React.js | Node.js | Redux | MongoDB</span>
                 </p>
@@ -145,7 +195,7 @@ class App extends Component {
                 <p>
                   Co-op work project. Responsive, user-friendly landing page for
                   AutoTURN Online, Transoft Solutions Inc. <br />
-                  <span>Bootstrap | HTML | CSS | PHP</span> 
+                  <span>Bootstrap | HTML | CSS | PHP</span>
                 </p>
                 <li>
                   <a
@@ -164,44 +214,7 @@ class App extends Component {
               </ul>
             </div>
 
-            <div className="col-12 offset-md-1 col-md-4">
-              <p className="subtitle">EDUCATION</p>
-              <p>
-                <span style={{ fontWeight: "bolder" }}>
-                  University of British Columbia
-                </span>{" "}
-                <br /> <span className="text-left">May 2021</span> | Vancouver,
-                BC, Canada <br /> Bachelor of Computer Science{" "}
-              </p>
-              <p>
-                <span style={{ fontWeight: "bolder" }}>
-                  Ocean University of China
-                </span>{" "}
-                <br /> <span>Sep 2013 - Sep 2018</span> | Tsingtao, China <br />
-                Bachelor of Economics
-              </p>
-            </div>
-
-            <div className="col-1 d-none d-md-block" id="v2"></div>
-            <div className="col-12 col-md-4 offset-md-1">
-              <p className="subtitle">WORK EXPERIENCE</p>
-              <p>
-                <span style={{ fontWeight: "bolder" }}>
-                  Junior Web Developer
-                </span>{" "}
-                <br /> <span>Sep 2019 - Dec 2019</span> | Richmond, Canada{" "}
-                <br />
-                Transoft Solutions Inc.
-                <br />
-                <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Maintained and upgraded websites codebase
-                </span>{" "}
-                <br />
-                <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Developed landing pages for new products
-                </span>
-              </p>
-            </div>
+            <div className="col-12 offset-md-1 col-md-4"></div>
           </div>
         </div>
 
