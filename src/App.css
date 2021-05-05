@@ -132,3 +132,7 @@ form button {
 #check-form p {
   width: 100%;
 }
+
+.socialMediaIcons {
+  max-width: 40px;
+} 
