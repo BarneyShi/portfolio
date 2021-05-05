@@ -69,13 +69,6 @@ class App extends Component {
                 src="data:image/svg;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwIOiznNQluAAABE0lEQVRIx+2VsU4CQRCGvzNHaYyExlBIaUyE2JjwBCbWtFjQGEp6e3wEOzsKLShIfAZrOiPEBBoqMDQgx2Vo1r3lDGb3trFgmp1/LvPN3NxtJkDwshCAtU+2EGUuHyEHfi8A/w1Qp8+Qths2GeIFMYIgNCxzU0M815Ur2TooMlcdXNt3sP0flHnkiRvr4r8ArhYhoSGPaCqvyzsn3CrV4Ys7qhQY80wvfXuSDkpqAkINuNKqzof2hRdCswMbwNRIF4T7XZ9xlx2z4I2J1i1yyUMbwCdnVDnlVek8l26AB0bAiraOlNwAg9QJh26AWJ1LHQncAH/aHgDmZYqZKW8FrLX62RqiI98mYr8XAgSv5Rr4rvcNQtNv0xwLwycAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjAtMDQtMTJUMDg6NTg6NDQrMDA6MDCtdJACAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDIwLTA0LTEyVDA4OjU4OjQ0KzAwOjAw3CkovgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAAASUVORK5CYII="
               />
             </a>
-            {/* eslint-disable-next-line */}
-            <a onClick={this.showContactForm}>
-              <img
-                alt="mail_icon"
-                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAQAAADZc7J/AAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAAHdElNRQfkBAwLCzFAKNxcAAACK0lEQVRIx53VOWhUURSH8d9kMS64BCOJC1FciIooKRRBEbSzVWwsLCwEq5RiN6CFhSkELYQ0IhgSCKKIooiFWqiIEBAlLoy7cYsR15g4x2ImYWacmcz479657/se77xz76NcZjmpV6P/zEZPhPDclurhOoeMCd26hTGH1FWDL3FT+GIf2GVIuGNFpfgeX4Vblk9UFrsu/NAxOTzbGWHUEfV59VoH/Bb6zC2Hb/NSSNlcdHWDR8Kg7cXhekl/hF5zSj5gppNC2jENhUur3BOG7Z70JXf4KNy3Nr9t34RrFlXU5BaXhJ86JGCe88KopNqKcEjo8Eu4bD6DwoD2iuHxtBsQBms0o6lM40plukY0E8aEEXurwvcayZJCKnt5TE2FHUgKo/ZLjQvY5L1w0axJ8RnOCp9sJVfAMg+Efq1l8QXuCo+tpFBAo6vCG+tL4uu8EG5oyl4XCKhzXPhZYh53+i505WyzfwTQYUxaMjNlefU/0pJ5taICDgrhVM6GaXBKCAcL7iwqaDckfM551yY3spWhgoktImgzKBzV4rbw1GorDAj3LHJY+GBNOUGbt0InmKZHGDYs9JgGOoW32koJWj0Tuibal3BAWtqRiQlNOCG8srSYoFUqD89kd8EnTegSUtlxyxE0eyj0VnAm1DgtPLYgVzDPfaGvwp9HrW5hQMu44J1+4VzBQV4u9c4J/d5lBCFcMbViHKa4kCETArw2UpWABgszXY0qwYL8BSjs+AOLn4UhAAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIwLTA0LTEyVDExOjExOjQ5KzAwOjAwmvVCFAAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMC0wNC0xMlQxMToxMTo0OSswMDowMOuo+qgAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwaAAAAAElFTkSuQmCC"
-              />
-            </a>
           </div>
         </nav>
         <div className="jumbotron text-center">
@@ -140,10 +133,9 @@ class App extends Component {
                 <span style={{ fontWeight: "bolder" }}>
                   Front-End Engineer, Later Inc
                 </span>{" "}
-                <br /> <span>Jan 2021 - Present</span> | Vancouver{" "}
-                <br />
+                <br /> <span>Jan 2021 - Present</span> | Vancouver <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Implement Drag&Drop feature 
+                  &#8226;Implement Drag&Drop feature
                 </span>{" "}
                 <br />
                 <span style={{ paddingLeft: "25px" }}>
@@ -154,14 +146,14 @@ class App extends Component {
                 <span style={{ fontWeight: "bolder" }}>
                   Junior Web Developer, Transoft Solutions Inc
                 </span>{" "}
-                <br /> <span>Sep 2019 - Dec 2019</span> | Richmond{" "}
-                <br />
+                <br /> <span>Sep 2019 - Dec 2019</span> | Richmond <br />
                 <span style={{ paddingLeft: "25px" }}>
                   &#8226;Made 3 landing pages.
                 </span>{" "}
                 <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Resolved over 20 tickets of bug fixing and improvements.
+                  &#8226;Resolved over 20 tickets of bug fixing and
+                  improvements.
                 </span>
               </p>
 
