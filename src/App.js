@@ -112,7 +112,7 @@ class App extends Component {
                 <span style={{ fontWeight: "bolder" }}>
                   University of British Columbia
                 </span>{" "}
-                <br /> <span className="text-left">May 2021</span> | Vancouver,
+                <br /> <span className="text-left">August 2018 - Present</span> | Vancouver,
                 BC, Canada <br /> Bachelor of Computer Science{" "}
               </p>
               <p>
@@ -133,13 +133,13 @@ class App extends Component {
                 <span style={{ fontWeight: "bolder" }}>
                   Front-End Engineer, Later Inc
                 </span>{" "}
-                <br /> <span>Jan 2021 - Present</span> | Vancouver <br />
+                <br /> <span>Jan 2021 - May 2021</span> | Vancouver <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Implement Drag&Drop feature
+                  &#8226;Worked on Drag&Drop feature
                 </span>{" "}
                 <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Bug fixing and make improvements.
+                  &#8226;Resolved over 35 front-end tickets
                 </span>
               </p>
               <p>
@@ -148,12 +148,11 @@ class App extends Component {
                 </span>{" "}
                 <br /> <span>Sep 2019 - Dec 2019</span> | Richmond <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Made 3 landing pages.
+                  &#8226;Made 3 landing pages
                 </span>{" "}
                 <br />
                 <span style={{ paddingLeft: "25px" }}>
-                  &#8226;Resolved over 20 tickets of bug fixing and
-                  improvements.
+                  &#8226;Resolved over 20 front-end tickets
                 </span>
               </p>
 
@@ -244,7 +243,7 @@ class App extends Component {
         </div>
 
         <footer id="page-footer">
-          <span>&copy; 2020 Barney Shi. </span>
+          <span>&copy; 2021 Barney Shi </span>
         </footer>
       </div>
     );
