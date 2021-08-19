@@ -6,6 +6,11 @@ body h2 {
   font-family: merriweather, serif;
   margin-bottom: 0;
 }
+nav.navbar {
+  position: sticky;
+  top: 0;
+  padding: 0 1rem;
+}
 a:hover {
   cursor: pointer;
 }
