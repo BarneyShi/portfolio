@@ -69,11 +69,11 @@ li {
 
 #page-footer {
   background-color: #e9ecef;
-  padding: 10px;
+  padding: 5px;
   margin-top: 25px;
 }
 #page-footer span {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 div #contact-form {
